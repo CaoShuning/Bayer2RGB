@@ -1,0 +1,5 @@
+Convert a graysclale photo to a (resized) RGB according to Bayer pattern.
+Two methods of interpomation are used. Nearest neighbour and Biliniear interpolation.
+
+Demo
+Four examples with the 2 interpolation methods with undersample and oversample.
