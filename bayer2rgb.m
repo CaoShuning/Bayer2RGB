@@ -13,9 +13,11 @@ for j=1:n
         temp_y = mod(j,2);
         
         if(temp_x==0 && temp_y==1)
+%         if(temp_x==1 && temp_y==1)
             color(i,j) = 'r';
         
         elseif (temp_x==1 && temp_y==0 )
+%         elseif (temp_x==0 && temp_y==0 )
             color(i,j) = 'b';
          
         else 

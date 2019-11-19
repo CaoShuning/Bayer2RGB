@@ -1,4 +1,6 @@
+clc,clear all;
 xb = imread('march.png');
+imshow(xb);
 
 xc = bayer2rgb( xb,320,420,1 );
 figure
